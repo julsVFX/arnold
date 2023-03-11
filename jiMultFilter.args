@@ -1,0 +1,7 @@
+<args format="1.0">
+  <param name="user_data_name" hide="False" help="Name of the float userdata to use as a mask."/>
+  <param name="user_data_default" hide="False" help="Default value if userdata is not found. Note that an empty string supplied to userdata will enable it by default on everything."/>
+  <param name="mask" slider="True" slidermin="0" slidermax="1" slidercenter="0.5"/>
+  <param name="intensity" slider="True" slidermin="0" slidermax="5" slidercenter="1"/>
+  <param name="exposure" slider="True" slidermin="-10" slidermax="10" slidercenter="0"/>
+</args>
